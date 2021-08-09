@@ -1,0 +1,27 @@
+@media screen and (max-width:500px){
+
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .botoes{
+        display: flex;
+        margin-top: 5px;
+        flex-direction: column;
+        color: aqua;
+    
+    }
+    .descricao{
+        width: 50%;
+    }
+    .background-video{
+        visibility: hidden;
+       
+    }
+}
+@media screen and (min-width:800px){
+    .descricao{
+        width: 50%;
+        
+    }
+}
